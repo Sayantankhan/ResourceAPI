@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="ResourceAPI">
+    <Basepaths>/resourceapi</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1539513351218</CreatedAt>
+    <CreatedBy>iamstk14@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ResourceAPI</DisplayName>
+    <LastModifiedAt>1539513351218</LastModifiedAt>
+    <LastModifiedBy>iamstk14@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:1a2b3c05bbe54f886bff4822b7369f23e73b6b2c7fc7879fc3c59e30cfa8ab74727c42d0a4a43ce247db4dc7ffaf1040be9b2063ad65aa7546861da4fedc2ea7</ManifestVersion>
+    <Policies>
+        <Policy>AM-ClientIdError</Policy>
+        <Policy>AM-SET400Fault</Policy>
+        <Policy>FC-DefaultFaultHandler</Policy>
+        <Policy>FC-FAULTHANDLING</Policy>
+        <Policy>FC-TrafficManagementFlow</Policy>
+        <Policy>FC-VerifyApiKey</Policy>
+        <Policy>ML-LOGError</Policy>
+        <Policy>RF-RaiseEmptyFault</Policy>
+        <Policy>VAK-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>getReq</TargetEndpoint>
+        <TargetEndpoint>postReq</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

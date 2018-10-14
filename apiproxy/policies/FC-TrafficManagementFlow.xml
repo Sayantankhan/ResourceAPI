@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="FC-TrafficManagementFlow">
+    <DisplayName>FC-TrafficManagementFlow</DisplayName>
+    <!--<FaultRules>-->
+    <!--    <FaultRule name="CLient id missing or mismatch Fault">-->
+    <!--        <Step>-->
+    <!--            <Name>AM-ClientIdError</Name>-->
+    <!--            <Condition>(fault.name matches "InvalidApiKey")</Condition>-->
+    <!--        </Step>-->
+    <!--        <Condition>(oauthV2.VAK-ClientIdVerification.failed = true)</Condition>-->
+    <!--    </FaultRule>-->
+    <!--</FaultRules>-->
+    <!--<DefaultFaultRule name="default">-->
+    <!--    <Step>-->
+    <!--        <Name>AM-ClientIdError</Name>-->
+    <!--    </Step>-->
+    <!--    <AlwaysEnforce>true</AlwaysEnforce>-->
+    <!--</DefaultFaultRule>-->
+    <Properties/>
+    <SharedFlowBundle>SF-APIRESOURCE</SharedFlowBundle>
+</FlowCallout>

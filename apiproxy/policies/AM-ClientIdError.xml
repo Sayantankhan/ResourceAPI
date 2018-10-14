@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-ClientIdError">
+    <DisplayName>AM-ClientIdError</DisplayName>
+    <Properties/>
+    <Remove>
+        <Payload/>
+    </Remove>
+    <Set>
+        <StatusCode>302</StatusCode>
+        <Payload contentType="application/json">
+                {"error":{"code" : "API-006", "message":"Use proper Client ID"}}
+          </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="repsonse"/>
+</AssignMessage>

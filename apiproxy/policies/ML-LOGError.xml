@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="false" enabled="true" name="ML-LOGError">
+    <DisplayName>ML-LOGError</DisplayName>
+    <Syslog>
+        <Message variablePrefix="%" variableSuffix="#">
+            [%private.encryptedLooglyCred# tag="{SK}.{APIData}.{prod}"] {%log_message#}
+        </Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-ClientIdError" version="SHA-512:a4a9207785dbdb0019f445d010e2cc28e20799a6bce608424f5f0e68a5b72eee75a07b6f4472865e3b66c7a1791494fa475cd3686d66e7b9ca0f37519e76c7b3"/>
+        <VersionInfo resourceName="AM-SET400Fault" version="SHA-512:3f5c40db9dfe1685fde5ee5bf624ec3a1a20ba9c2ccaf9c6f10a12c97546c4af6aed33419d755ba5f51adf379046299c1e2de99db8923e6908881f0d0ee26965"/>
+        <VersionInfo resourceName="FC-DefaultFaultHandler" version="SHA-512:9a126103b7a71cd9d56e856cbabac30c58a50633fd3a1dce5b762916789540c36ce9d87d29d367bd5699a831e41fc6f39fc155823e3a00f7099815fcf4bb0e05"/>
+        <VersionInfo resourceName="FC-FAULTHANDLING" version="SHA-512:04869e7867f5815ccb778bf664777813d7b443f53bbed8a7ba5bedaddb3908be68bff99d74469b28cfe3fcd4e002d55bf354269cca4f5663c83b5c99501d68d1"/>
+        <VersionInfo resourceName="FC-TrafficManagementFlow" version="SHA-512:61e41c9f2ae930a31d88fde939f95b47fc9f0ac3a22f14cd24e69f9927722ba53450ac645265f4918e46b771ad7e303978322a5a87a6209ba66873c5081da51e"/>
+        <VersionInfo resourceName="FC-VerifyApiKey" version="SHA-512:bc7c16ce7902005c5ed55f6f69f4fe6272535f6004a8a9acb393685673cb68c0fd514b551130322857c22f9f686e8a1c96fac30931d31e60deb3652cb7253857"/>
+        <VersionInfo resourceName="ML-LOGError" version="SHA-512:935767004795067698bf740522f4acc3102b8326ff23c5dacdc3f2aad683da966534b19bd48cf34a17175c5edfd28dff533392d8a98361d9c3ada1224998a2b3"/>
+        <VersionInfo resourceName="RF-RaiseEmptyFault" version="SHA-512:493aa3e952469d2f50f293e71facb4ed61972e23ed01ce787ab5e1ca676a05f87b7f43e1004da47059ebeedf1769bdd63e63b7e869cc932b1fe1e32405f249f4"/>
+        <VersionInfo resourceName="VAK-key" version="SHA-512:3e0e4803e7f1f06ff85763f41f263d366590355dd0305c371a148b5deb22cc37f1c13a482cbba4a5f2c3dfd56e5d67a4bd831e62e05f31e98111351fcdcb0445"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:3c1b1f0d3734e020ff551ad988c60046232a859e9e5a168b0aa7449959ed36a8693223ee76930d10ee094e128c811e57a887fa6f1b5b84dedcbf763c49703b23"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="getReq" version="SHA-512:d3222071b4bbf27a00e038c083cfb6e7e9f3736542489f3f77f4696e23451f76835746c35fd35d2f3da8a3cc4facd9b52cc571a4d375d0de1e9327aa38a4daf5"/>
+        <VersionInfo resourceName="postReq" version="SHA-512:be796eea2a5343a5b21e960282f24f61a0069e82b61102e8f4845247fdc40b5a9b930fe7332d7ea518eea9ef958dca03b185dc6e5d46de7f8b645af93fd79d90"/>
+    </TargetEndpoints>
+</Manifest>
